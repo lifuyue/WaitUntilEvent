@@ -30,10 +30,10 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_sum_until_prime_input()
-    run_test_next_prime()
+    # run_test_sum_until_prime_input()
+    # run_test_next_prime()
     run_test_prime_gap()
-    run_test_wait_for_sum_of_cubes()
+    # run_test_wait_for_sum_of_cubes()
 
 
 def is_prime(n):
@@ -339,13 +339,22 @@ def prime_gap(m):
     #    -- Use (call) the   *** next_prime ***   function
     #       (that you implemented) appropriately.
     # ------------------------------------------------------------------
-    n = 1
+    n = 2
     while True:
-        n += 1
-        if next_prime(n + 1) - next_prime(n) >= m:
+        if is_prime(n) and next_prime(n + 1) - n >= m:
             break
+        n += 1
 
     return next_prime(n)
+
+
+    # n = 2
+    # while True:
+    #     if next_prime(n + 1) - next_prime(n) >= m:
+    #         break
+    #     n += 1
+    #
+    # return next_prime(n)
 
 
 def run_test_wait_for_sum_of_cubes():
