@@ -4,8 +4,6 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Li Fuyue.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
-
-
 import math
 
 
