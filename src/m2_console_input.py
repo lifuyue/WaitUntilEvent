@@ -4,14 +4,16 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Li Fuyue.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
+
 import math
 
 
 def main():
     """ TESTs the functions in this module (by calling them). """
-    # double_a_float()
-    # print_an_integer_many_times()
-    # print_an_integer_many_times_on_one_row()
+    double_a_float()
+    print_an_integer_many_times()
+    print_an_integer_many_times_on_one_row()
     input_it_all()
 
 
